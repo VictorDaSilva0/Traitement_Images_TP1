@@ -10,3 +10,16 @@ Etant donné que l'image est en niveau de gris, les dimensions sont donc Longueu
 
 Les granulats apparaissent plus sombres.
 
+# Q4 : Indiquer les termes consacrés, vus durant le cours magistral, correspondant aux trois étapes ci-dessous.
+
+1. Détection de deux classes de pixels : le fond et les granulats de caoutchouc (autrement dit : séparation des objets et du fond). Opération de Binarisation
+
+2. Élimination des faux positifs, c’est-à-dire des petits éléments détectés comme des granulats de caoutchouc, mais qui sont en réalité des impuretés. 
+Opération d'Ouverture
+
+3. Élimination des faux négatifs, c’est-à-dire des éléments détectés comme du fond alors qu’ils font partie des granulats (pixels noirs dans un granulat). 
+Opération de Fermeture
+
+# Q5 : Le seuil calculé automatiquement par Otsu semble-t-il cohérent avec l’image observée ?Justifier.
+
+En partie oui, une grande partie des bouts de caoutchouc détectés correspondent bien à ceux présent dans le bloc de béton.
